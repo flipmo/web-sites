@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+# RewriteRule ^([a-z]+)\.html$ /index.php?$1 [R,L]
+RewriteRule ^index\.html$ /index.php?$1 [R,L]
